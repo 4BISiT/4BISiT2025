@@ -1,0 +1,70 @@
+/* styles.qss */
+
+/* Общие настройки для всех виджетов */
+QWidget {
+    background-color: #f0f0f5;
+    font-family: "San Francisco", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #333333;
+}
+
+/* Настройки для кнопок */
+QPushButton {
+    background-color: #ffffff;
+    border: 2px solid #4a90e2;
+    border-radius: 8px;
+    padding: 8px 16px;
+}
+
+QPushButton:hover {
+    background-color: #4a90e2;
+    color: #ffffff;
+}
+
+QPushButton:pressed {
+    background-color: #357ab8;
+    border: 2px solid #357ab8;
+    color: #ffffff;
+}
+
+/* Настройки для линий ввода */
+QLineEdit {
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+    border-radius: 8px;
+    padding: 6px 12px;
+}
+
+QLineEdit:focus {
+    border: 2px solid #4a90e2;
+}
+
+/* Настройки для меток */
+QLabel {
+    padding: 4px;
+}
+
+/* Настройки для списков */
+QListWidget {
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+    border-radius: 8px;
+}
+
+/* Настройки для чекбоксов */
+QCheckBox {
+    padding: 4px;
+}
+
+/* Настройки для диалогов */
+QDialog {
+    background-color: #f0f0f5;
+}
+
+/* Настройки для области текста */
+QTextEdit {
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+    border-radius: 8px;
+    padding: 8px;
+}
